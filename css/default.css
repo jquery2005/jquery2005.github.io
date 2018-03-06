@@ -1,0 +1,175 @@
+.loader
+{
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    position: relative;
+    z-index: 100;
+    /*
+    animation: bgc 4s 1s infinite;
+    -webkit-animation: bgc 4s 1s infinite;
+    -moz-animation: bgc 4s 1s infinite;
+    -o-animation: bgc 4s 1s infinite;
+    -ms-animation: bgc 4s 1s infinite;
+    animation-fill-mode: both;
+    */
+}
+.myloading
+{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    animation: load 4s infinite;
+    -webkit-animation: load 4s infinite;
+    -moz-animation: load 4s infinite;
+    -o-animation: load 4s infinite;
+    -ms-animation: load 4s infinite;
+    animation-fill-mode: both;
+}
+@keyframes load
+{
+    0%
+    {
+        transform: perspective(100px) rotateX(0deg) rotateY(0);
+        background-color: blueviolet;
+    }
+    25%
+    {
+        transform: perspective(100px) rotateX(180deg) rotateY(0);
+        background-color: #B1A25E;
+    }
+    50%
+    {
+        transform: perspective(100px) rotateX(180deg) rotateY(180deg);
+        background-color: #25AEF5;
+    }
+    75%
+    {
+        transform: perspective(100px) rotateX(0) rotateY(180deg);
+        background-color: mediumvioletred;
+    }
+    100%
+    {
+        transform: perspective(100px) rotateX(0) rotateY(0);
+        background-color: blueviolet;
+    }
+}
+@-webkit-keyframes load
+{
+    0%
+    {
+        transform: perspective(100px) rotateX(0deg) rotateY(0);
+        background-color: blueviolet;
+    }
+    25%
+    {
+        transform: perspective(100px) rotateX(180deg) rotateY(0);
+        background-color: #B1A25E;
+    }
+    50%
+    {
+        transform: perspective(100px) rotateX(180deg) rotateY(180deg);
+        background-color: #25AEF5;
+    }
+    75%
+    {
+        transform: perspective(100px) rotateX(0) rotateY(180deg);
+        background-color: mediumvioletred;
+    }
+    100%
+    {
+        transform: perspective(100px) rotateX(0) rotateY(0);
+        background-color: blueviolet;
+    }
+}
+@-moz-keyframes load
+{
+    0%
+    {
+        transform: perspective(100px) rotateX(0deg) rotateY(0);
+        background-color: blueviolet;
+    }
+    25%
+    {
+        transform: perspective(100px) rotateX(180deg) rotateY(0);
+        background-color: #B1A25E;
+    }
+    50%
+    {
+        transform: perspective(100px) rotateX(180deg) rotateY(180deg);
+        background-color: #25AEF5;
+    }
+    75%
+    {
+        transform: perspective(100px) rotateX(0) rotateY(180deg);
+        background-color: mediumvioletred;
+    }
+    100%
+    {
+        transform: perspective(100px) rotateX(0) rotateY(0);
+        background-color: blueviolet;
+    }
+}
+@-o-keyframes load
+{
+    0%
+    {
+        transform: perspective(100px) rotateX(0deg) rotateY(0);
+        background-color: blueviolet;
+    }
+    25%
+    {
+        transform: perspective(100px) rotateX(180deg) rotateY(0);
+        background-color: #B1A25E;
+    }
+    50%
+    {
+        transform: perspective(100px) rotateX(180deg) rotateY(180deg);
+        background-color: #25AEF5;
+    }
+    75%
+    {
+        transform: perspective(100px) rotateX(0) rotateY(180deg);
+        background-color: mediumvioletred;
+    }
+    100%
+    {
+        transform: perspective(100px) rotateX(0) rotateY(0);
+        background-color: blueviolet;
+    }
+}
+@-ms-keyframes load
+{
+    0%
+    {
+        transform: perspective(100px) rotateX(0deg) rotateY(0);
+        background-color: blueviolet;
+    }
+    25%
+    {
+        transform: perspective(100px) rotateX(180deg) rotateY(0);
+        background-color: #B1A25E;
+    }
+    50%
+    {
+        transform: perspective(100px) rotateX(180deg) rotateY(180deg);
+        background-color: #25AEF5;
+    }
+    75%
+    {
+        transform: perspective(100px) rotateX(0) rotateY(180deg);
+        background-color: mediumvioletred;
+    }
+    100%
+    {
+        transform: perspective(100px) rotateX(0) rotateY(0);
+        background-color: blueviolet;
+    }
+}
