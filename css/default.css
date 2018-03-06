@@ -20,12 +20,14 @@
 {
     width: 60px;
     height: 60px;
-    margin: auto;
+    margin: 0px auto;
     position: absolute;
+    /*
     left: 0;
     top: 100px;
     right: 0;
     bottom: 0;
+    */
     animation: load 4s infinite;
     -webkit-animation: load 4s infinite;
     -moz-animation: load 4s infinite;
